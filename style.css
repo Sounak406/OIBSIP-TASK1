@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1c1c1c;
+}
+
+header {
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.firstpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #e50914;
+}
+
+.select-language{
+    padding: 5px;  
+}
+
+.secondpart {
+  background-image: url('abstract-background-design-images-wallpaper-ai-generated_643360-172572.jpg');
+  background-size: cover;   
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 300px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondpart h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.secondpart p {
+    margin-bottom: 20px;
+}
+
+.secondpart .button1 {
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Moneyback {
+    font-size: 0.8em;
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: blue;
+    border:none;
+    border-radius: 0ch;
+}
+
+.thirdpart{
+    background-color: black;
+    color:white;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 15px;           
+  margin-bottom: 20px;
+}
+.image{
+    display:inline;
+    width: 300px;
+    height: auto;
+}
+
+.content {
+    max-width: 400px;;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.8em;
+}
+
+.fourthpart {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: black;
+}
+
+.fourthpart .item1 {
+    max-width: 300px;
+}
+
+.fourthpart h3 {
+    color: #1db954;
+}
+.fourthpart p {
+    color: white;
+}
+
+.fifthpart {
+    padding: 40px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+footer p{
+      border:none;
+      border-radius: 5px;
+      padding: 20px 20px;
+     text-align: center;
+     color:white;
+     background-color: green;
+     cursor: pointer;
+}
+
+.button1 {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button1:hover {
+    background-color: #17a44d;
+}
+.button2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: green;;
+}
+
+.lastcontent{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+.image1{
+    width: 100vw;
+    height: auto;
+}
